@@ -307,8 +307,8 @@ const Ecommerce = () => {
               src={product9}
               alt=""
             />
-           <div className="mt-8">
-              <div className="mt-3">
+            <div className="mt-8">
+             <div className="mt-3">
                 <Button
                   color="white"
                   bgColor={currentColor}
@@ -316,7 +316,7 @@ const Ecommerce = () => {
                   borderRadius="10px"
                 />
               </div>
-            </div>
+           </div>
           </div>
         </div>
       </div>

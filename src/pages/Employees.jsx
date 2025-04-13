@@ -22,7 +22,7 @@ const Employees = () => {
         toolbar={toolbarOptions}
       >
         <ColumnsDirective>
-          {employeesGrid.map((item, index) => <ColumnDirective key={index} {...item} />)}
+          {employeesGrid.map((item,index)=><ColumnDirective key={index}{...item}/>)}
         </ColumnsDirective>
         <Inject services={[Search, Page]} />
 

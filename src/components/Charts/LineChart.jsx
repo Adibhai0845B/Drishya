@@ -20,10 +20,8 @@ const LineChart = () => {
     >
       <Inject services={[LineSeries, DateTime, Legend, Tooltip]} />
       <SeriesCollectionDirective>
- 
-         {lineCustomSeries.map((item, index) => <SeriesDirective key={index} {...item} />)}
-      </SeriesCollectionDirective>
-    </ChartComponent>
+{lineCustomSeries.map((item, index) => <SeriesDirective key={index} {...item} />)}
+    </SeriesCollectionDirective></ChartComponent>
   );
 };
 
